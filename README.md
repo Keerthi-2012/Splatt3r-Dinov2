@@ -18,7 +18,7 @@ This project integrates **DINOv2** (Meta's self-supervised vision transformer) a
 | **DINOv2 Loader** | `src/model/splatt3r.py` | Load & manage DINOv2 models (vits14, vitb14, vitl14) |
 | **Feature Fusion** | `src/model/feature_fusion.py` | Combine DINOv2 + MASt3R features (3 fusion strategies) |
 | **Training Pipeline** | `main.py` | Integrate DINOv2 into MAST3RGaussians training loop |
-| **Config System** | `configs/dinov2_co3d_fast.yaml` | DINOv2 hyperparameter tuning |
+| **Config System** | `configs/dinov2_co3d_experiment.yaml` | DINOv2 hyperparameter tuning |
 | **Testing** | `test_forward.py` | Validate DINOv2 forward pass |
 
 ### Feature Fusion Strategies
@@ -103,7 +103,7 @@ Novel View Synthesis & Rendering
 
 
 ```powershell
-python3 main.py configs/dinov2_co3d_experiment.yaml`
+python3 main.py configs/dinov2_co3d_experiment.yaml
 
 ```
 
