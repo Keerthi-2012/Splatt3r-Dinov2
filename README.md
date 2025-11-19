@@ -1,4 +1,4 @@
-# DINOv2 Integration in Splatt3R - Project Report
+# DINOv2 Integration in Splatt3R 
 
 
 This project integrates **DINOv2** (Meta's self-supervised vision transformer) as a semantic feature backbone into the **Splatt3R** 3D Gaussian splatting pipeline. This is a part of integrating multiple feature backbones into an existing Splatt3R implementation like DINOv2,Croco MASt3R. The objective is to benchmark how different vision foundation models impact 3D scene reconstruction quality and efficiency.
